@@ -19,6 +19,7 @@ Package stacktrace extracts merged stacktrace from wrapped errors.
 
 ## Case 1: Simple output
 
+    err := funcA()
     fmt.Printf("%v\n", stacktrace.New(err))
 
 vvv
@@ -67,7 +68,7 @@ vvv
     runtime.goexit
             go/current/src/runtime/asm_amd64.s:1571
 
-## Case 3: (without this package) fmt.Printf("%+v\n", a())
+## Case 3: (without this package) fmt.Printf("%+v\n", err)
 
 Redundant output.
 
