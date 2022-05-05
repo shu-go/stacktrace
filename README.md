@@ -1,5 +1,8 @@
 Package stacktrace extracts merged stacktrace from wrapped errors.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/shu-go/stacktrace)](https://goreportcard.com/report/github.com/shu-go/stacktrace)
+![MIT License](https://img.shields.io/badge/License-MIT-blue)
+
 # Usage
 
     func funcA() error {
